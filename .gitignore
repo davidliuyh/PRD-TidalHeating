@@ -1,0 +1,12 @@
+# Hidden local/editor files.
+.*
+!.gitignore
+
+# Python/cache/runtime environments.
+__pycache__/
+.venv/
+
+# Halo simulation raw outputs. These directories contain generated snapshots,
+# density/potential files, particle dumps, videos, and per-seed xvta outputs.
+/ma*e-*M*ts*rres*/
+/ma*e+*M*ts*rres*/
